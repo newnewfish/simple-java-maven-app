@@ -12,11 +12,18 @@ public class App
     public App() {}
 
     public static void main(String[] args) {
-        System.out.println(new App().getMessage());
+    	App app = new App();
+        System.out.println(app.getMessage());
+
+	    System.out.println(app.getCount());
     }
 
     private final String getMessage() {
         return message;
+    }
+
+    private final Integer getCount() {
+    	return count;
     }
 
 
