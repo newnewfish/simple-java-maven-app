@@ -7,6 +7,7 @@ public class App
 {
 
     private final String message = "Hello World!";
+    private final Integer count = 100;
 
     public App() {}
 
@@ -17,5 +18,7 @@ public class App
     private final String getMessage() {
         return message;
     }
+
+
 
 }
